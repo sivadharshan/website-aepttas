@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Aepttas Technologies</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      <nav class="nav">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a class="btn-outline" href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open navigation" id="navToggle4">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>About Aepttas Technologies</h1>
+      <p class="lead">We combine strategy, engineering, and people to deliver measurable outcomes.</p>
+    </section>
+
+    <section class="mission">
+      <h2>Our mission</h2>
+      <p>To enable businesses to modernize their technology and leadership so they can compete and grow sustainably.</p>
+    </section>
+
+    <section class="team-grid">
+      <article class="team">
+        <img src="https://via.placeholder.com/120" alt="CEO photo" />
+        <h4>Alex Morgan</h4>
+        <p class="muted">Founder & CEO</p>
+      </article>
+      <article class="team">
+        <img src="https://via.placeholder.com/120" alt="CTO photo" />
+        <h4>Priya Kaur</h4>
+        <p class="muted">CTO</p>
+      </article>
+      <article class="team">
+        <img src="https://via.placeholder.com/120" alt="Head of Talent photo" />
+        <h4>Daniel Park</h4>
+        <p class="muted">Head of Talent</p>
+      </article>
+    </section>
+
+    <section class="values">
+      <h2>Values</h2>
+      <ul>
+        <li>Client-first: outcomes over output</li>
+        <li>Integrity: transparent, data-driven advice</li>
+        <li>Craft: engineering and organizational excellence</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      </div>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p class="muted">Contact</p>
+        <p>hello@aepttas.com</p>
+        <p class="muted">© <span id="year4"></span> Aepttas Technologies</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

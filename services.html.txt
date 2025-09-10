@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — Aepttas Technologies</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- header (same structure as index) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      <nav class="nav">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a class="btn-outline" href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open navigation" id="navToggle2">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>Services</h1>
+      <p class="lead">End-to-end services that connect leadership, people strategy, and engineering.</p>
+    </section>
+
+    <section id="talent" class="service">
+      <h2>Talent & Leadership</h2>
+      <p>Assessment, coaching, succession planning, executive search, and skills transformation programs tailored for C-suite and leadership layers.</p>
+      <ul>
+        <li>Leadership assessments & coaching</li>
+        <li>Succession planning</li>
+        <li>Learning & development programs</li>
+      </ul>
+    </section>
+
+    <section id="org" class="service">
+      <h2>Organizational Strategy</h2>
+      <p>Operating model design, workforce planning, change management, and transformation programs to optimize performance.</p>
+      <ul>
+        <li>Operating model & design</li>
+        <li>Change enablement</li>
+        <li>Performance metrics & governance</li>
+      </ul>
+    </section>
+
+    <section id="tech" class="service">
+      <h2>Digital & Cloud Engineering</h2>
+      <p>Cloud strategy, platform engineering, product delivery, data & AI, and security to support scalable digital products.</p>
+      <ul>
+        <li>Cloud migration & architecture</li>
+        <li>Platform engineering & devops</li>
+        <li>Data engineering & analytics</li>
+      </ul>
+    </section>
+
+    <section class="contact-slab">
+      <h3>Want a tailored roadmap?</h3>
+      <a class="btn-primary" href="contact.html">Request a consultation</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      </div>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p class="muted">Contact</p>
+        <p>hello@aepttas.com</p>
+        <p class="muted">© <span id="year2"></span> Aepttas Technologies</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

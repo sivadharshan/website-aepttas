@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Insights — Aepttas Technologies</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      <nav class="nav">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a class="btn-outline" href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open navigation" id="navToggle3">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>Insights</h1>
+      <p class="lead">Research, guides, and client stories from our teams.</p>
+    </section>
+
+    <section class="blog-grid">
+      <article class="post">
+        <h3>Aligning workforce strategy with digital transformation</h3>
+        <p class="muted">Oct 1, 2025 • Whitepaper</p>
+        <p>How organizations can sync talent strategy with product roadmaps to avoid capability gaps.</p>
+        <a class="text-link" href="#">Read more →</a>
+      </article>
+
+      <article class="post">
+        <h3>Designing resilient operating models</h3>
+        <p class="muted">Sep 10, 2025 • Case study</p>
+        <p>A case study on redesigning governance and decision rights for a global services firm.</p>
+        <a class="text-link" href="#">Read more →</a>
+      </article>
+
+      <article class="post">
+        <h3>Cloud-native best practices for rapid scaling</h3>
+        <p class="muted">Aug 20, 2025 • Guide</p>
+        <p>Patterns and pitfalls for teams adopting cloud-native delivery at an enterprise scale.</p>
+        <a class="text-link" href="#">Read more →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      </div>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p class="muted">Contact</p>
+        <p>hello@aepttas.com</p>
+        <p class="muted">© <span id="year3"></span> Aepttas Technologies</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

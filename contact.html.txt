@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Aepttas Technologies</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      <nav class="nav">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a class="btn-outline" href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Open navigation" id="navToggle5">☰</button>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <section class="page-head">
+      <h1>Contact</h1>
+      <p class="lead">Get in touch — we'll reply within 2 business days.</p>
+    </section>
+
+    <section class="contact-grid">
+      <form class="contact-form" action="#" method="post" onsubmit="return handleContact(event);">
+        <label>
+          Name
+          <input name="name" type="text" required>
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" required>
+        </label>
+        <label>
+          Company
+          <input name="company" type="text">
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <button class="btn-primary" type="submit">Send message</button>
+        <p class="muted form-note">Or email us directly at hello@aepttas.com</p>
+      </form>
+
+      <aside class="contact-info">
+        <h3>Offices</h3>
+        <p><strong>HQ</strong><br/>123 Innovation Drive<br/>City, Country</p>
+        <p><strong>EMEA</strong><br/>Office address</p>
+
+        <h3>Phone</h3>
+        <p>+1 (555) 123-4567</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="index.html">Aepttas<span class="accent">.</span></a>
+      </div>
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <p class="muted">Contact</p>
+        <p>hello@aepttas.com</p>
+        <p class="muted">© <span id="year5"></span> Aepttas Technologies</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
